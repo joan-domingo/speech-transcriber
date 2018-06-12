@@ -1,17 +1,23 @@
 {
   "name": "speech-transcriber",
   "version": "1.0.0",
-  "description": "speech to text transcriber using google apis",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Joan Domingo Sallent",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^4.19.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joan-domingo/speech-transcriber.git"
   },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joan-domingo/speech-transcriber/issues"
+  },
+  "homepage": "https://github.com/joan-domingo/speech-transcriber#readme",
   "dependencies": {
-    "@google-cloud/speech": "^1.5.0"
+    "express": "^4.16.3"
   }
 }
