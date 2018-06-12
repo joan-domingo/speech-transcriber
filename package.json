@@ -1,0 +1,14 @@
+{
+  "name": "speech-transcriber",
+  "version": "1.0.0",
+  "description": "speech to text transcriber using google apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joan Domingo Sallent",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
