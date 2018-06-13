@@ -7,7 +7,7 @@ const client = new speech.SpeechClient();
 /**
  * TODO(developer): Uncomment the following lines before running the sample.
  */
-const gcsUri = 'gs://cloud-samples-tests/speech/brooklyn.flac';
+const gcsUri = 'gs://gcs-test-data/vr.flac';
 const encoding = 'FLAC';
 const sampleRateHertz = 16000;
 const languageCode = 'en-US';
