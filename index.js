@@ -4,9 +4,6 @@ const speech = require('@google-cloud/speech');
 // Creates a client
 const client = new speech.SpeechClient();
 
-/**
- * TODO(developer): Uncomment the following lines before running the sample.
- */
 const gcsUri = 'gs://gcs-test-data/vr.flac';
 const encoding = 'FLAC';
 const sampleRateHertz = 16000;
