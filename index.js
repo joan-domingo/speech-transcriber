@@ -4,8 +4,8 @@ const speech = require('@google-cloud/speech');
 // Creates a client
 const client = new speech.SpeechClient();
 
-const gcsUri = 'gs://flac-files-storage-test1/test2.flac';
-const encoding = 'FLAC';
+const gcsUri = 'gs://flac-files-storage-test1/test.wav';
+const encoding = 'LINEAR16';
 const sampleRateHertz = 44100;
 const languageCode = 'en-US';
 
@@ -39,7 +39,7 @@ client
       .map(result => result.alternatives[0].transcript)
       .join('\n');
     console.log(`Transcription: ${transcription}`);
-    console.log(JSON.stringify(response, null, 2));
+    // console.log(JSON.stringify(response, null, 2));
   })
   .catch((err) => {
     console.error('ERROR:', err);
